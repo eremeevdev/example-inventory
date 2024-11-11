@@ -1,3 +1,6 @@
 - hosts: all
   roles:
-    - eremeev.example.message
+    - role: eremeev.example.message
+    - role: eremeev.example.message
+      vars:
+        message_msg: "{{ secret_message_msg }}"
