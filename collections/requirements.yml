@@ -1,0 +1,4 @@
+collections:
+  - name: https://github.com/eremeevdev/example-collections
+    type: git
+    version: master
