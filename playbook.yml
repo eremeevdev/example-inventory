@@ -4,3 +4,9 @@
     - role: eremeev.example.message
       vars:
         message_msg: "{{ secret_message_msg }}"
+    - role: eremeev.example.message
+      vars:
+        message_msg: "{{ secret_message_msg2 }}"
+    - role: eremeev.example.message
+      vars:
+        message_msg: "{{ message_msg2 }}"
