@@ -1,0 +1,2 @@
+[app]
+host2 ansible_connection=local
